@@ -77,13 +77,13 @@ html{
 	height: 100vh;
 }
 .logoimage{
-	width: 22vh;
+	width: 80px;
 	height: auto;
 }
 /* tablet screen size*/
 @media only screen and (max-width: 600px){
 	.logoimage{
-	width: 11vh;
+	width: 60px;
 	
 }
 .beach{
