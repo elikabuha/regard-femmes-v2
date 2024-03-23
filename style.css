@@ -4,6 +4,8 @@
 html{
 	font-family: "Lucida Sans"sans-serif;
 
+
+
  .navbar-nav a:hover{
 	background-color:blue ;
 	overflow: hidden;
@@ -17,8 +19,14 @@ html{
 	text-decoration: none !important;
 
 }
-.navbar-light .navbar-toggler-icon{
-	
+.navbar-toggler{
+
+	&:focus{
+		outline: none;
+		box-shadow: none;
+		border:none ;
+
+	}
 }
 .card{
 	
